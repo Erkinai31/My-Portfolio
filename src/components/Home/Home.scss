@@ -1,0 +1,59 @@
+@import "../Styles/Variables.sass";
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+
+
+.profil{
+    width:$wd8;
+    margin:$mg;
+    font-family:$itFont;;
+    line-height: 40px;
+    color:$whCl;
+    padding:50px 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height:700px; 
+}
+.profil__intro{
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    width:$wd8;
+    margin: $mg;
+    font-size: $fsz; 
+    text-align: center;
+    padding-top:30px;
+}
+.myPhoto{
+    background-image:url('../../assets/img/white-circle-on-azure-and-yellow-bright-dry-colors_23-2148016401.avif');
+    background-size: contain;
+    padding:10px 10px 0px 20px;
+    border-radius: 50%;
+}
+.title{
+    color:$title;
+    font-size: 45px;
+    width:50%;
+}
+.profil .title{
+    padding-top: 60px;
+}
+.btn1{
+    background-color:rgba(0, 0, 255, 0.567);
+    padding:5px;
+    border-radius:15px;
+    border:rgba(0, 0, 255, 0.567) 1px solid;
+    color:$whCl;
+    font-size: 16px;
+    width: 20%;
+    text-align: center;
+    margin: $mg;
+    text-decoration: none;
+}
+.photo_side{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   min-height:390px;
+}

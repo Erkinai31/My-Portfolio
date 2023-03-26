@@ -1,0 +1,113 @@
+@import "../Styles/Variables.sass";
+.progress .progress-inside {
+  background-color: #354ff3;
+  display: inline-block;
+  border-radius: 5px;
+  padding-left:60px;
+  color:$whCl;
+}
+.logo{
+  text-shadow:  0 0 20px #a2b7fc, 0 0 30px #8898f6, 0 0 40px #659cfa, 0 0 50px #6fa1e3
+}
+
+.percentage{
+  padding-left:60px;
+}
+.skills_wrapper {
+  width: $wd8;
+  margin: $mg;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.skills_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 900px;
+}
+.progress {
+  background-color: #c1bcbc;
+  font-size: 18px;
+  margin: 40px 0;
+  border-radius: 15px;
+}
+.tech_skill,
+.lng_skill {
+  width: 85%;
+}
+.html {
+  width: 85%;
+}
+.css {
+  width: 80%;
+}
+.js {
+  width: 70%;
+}
+.react {
+  width: 60%;
+}
+.redux {
+  width: 45%;
+}
+.circle-out {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: #efeeee;
+  overflow: hidden;
+}
+.circle-in {
+  position: absolute;
+  width: 155px;
+  height: 155px;
+  margin: 2px;
+  border-radius: 50%;
+  background: white;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.lng {
+  width: 300px;
+  background: rgb(51, 2, 247);
+  position: absolute;
+  top: -130px;
+  left: -70px;
+  transform: rotate(30deg);
+  transform-origin: 15px;
+  transition: all 0.3s;
+}
+.eng {
+  height: 120px;
+}
+.ge {
+  height: 170px;
+}
+.ru {
+  height: 215px;
+}
+.kg {
+  height: 215px;
+}
+.lng_grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: $wd;
+}
+
+.wh_bgr {
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
+.skills_content h2 {
+  color: $whCl;
+  padding-bottom: 35px;
+}

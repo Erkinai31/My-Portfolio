@@ -1,0 +1,38 @@
+@import "../Styles/Variables.sass";
+
+.project_content{
+  width:$wd8;
+  margin:$mg;
+  padding-top: 20px;
+}
+
+.carousel {
+    width: 100%;
+    min-height: 580px;
+    margin: auto;
+    padding:40px;
+   
+  }
+
+  
+  .carousel-control-prev {
+    height: 300px;
+  }
+  .carousel-control-next {
+    height: 300px;
+  }
+  
+  .carousel .carousel-control-prev-icon {
+    visibility: hidden;
+  }
+  .carousel:hover .carousel-control-prev-icon {
+    visibility: visible;
+  }
+  
+  .carousel .carousel-control-next-icon {
+    visibility: hidden;
+  }
+  .carousel:hover .carousel-control-next-icon {
+    visibility: visible;
+  }
+  

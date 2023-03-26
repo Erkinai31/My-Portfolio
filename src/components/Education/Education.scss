@@ -1,0 +1,36 @@
+@import "../../components/Styles/Variables.sass";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.education__bgr {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+.educ__wrapper {
+  background-color: rgba(255, 255, 255, 0.517);
+  padding: 20px;
+  width: $wd8;
+  margin: $mg;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  line-height: 40px;
+  letter-spacing: 0.7mm;
+  font-size: $fsz;
+}
+.educ__wrapper a{
+    color:rgb(18, 4, 112)
+}
+strong{
+    font-weight: bolder;
+}
+.educ__wrapper p {
+  padding-bottom: 30px;
+}
+.scale {
+  transition: 1s;
+}
+.scale:hover {
+  transform: scale(1.2);
+}
