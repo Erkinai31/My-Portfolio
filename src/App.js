@@ -37,7 +37,6 @@ function App() {
        </div>
       </div>
       
-     
           <MyProjects  MyProjectsRef={MyProjectsRef}/>
        
       <Footer  ContactRef={ContactRef}/>

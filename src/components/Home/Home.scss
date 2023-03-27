@@ -17,6 +17,7 @@
 .profil__intro{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .about{
     width:$wd8;
@@ -56,4 +57,19 @@
    flex-direction: column;
    justify-content: space-around;
    min-height:390px;
+}
+@media screen and (max-width:768px) {
+    .btn1{
+        font-size: 14px;
+        width: 80%;
+    }
+}
+@media screen and (max-width:420px) {
+    .title{
+        font-size: 30px;  
+    }
+    .myPhoto{
+        width:70%;
+        height:70%;
+    }
 }

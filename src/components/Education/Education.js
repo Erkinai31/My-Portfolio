@@ -27,7 +27,7 @@ const Education = forwardRef((props, ref) => {
             ,<br /> Business Administration
           </p>
         </div>
-        <img src={certificate} width="350px" height='450px'/>
+        <img src={certificate} width="350px" height='450px' className="certificate" alt="certificate"/>
       </div>
     </div>
   );

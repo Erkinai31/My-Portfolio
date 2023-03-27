@@ -59,6 +59,28 @@ export default function Header(props) {
                 Contact
             </li>
           </ul>
+          <div class="hamburger-menu">
+					<input id="menu__toggle" type="checkbox" />
+					<label class="menu__btn" for="menu__toggle">
+					  <span></span>
+					</label>
+					<ul class="menu__box">
+          <li className="item" onClick={handleClickHome}>
+                Home
+            </li>
+            <li className="item" onClick={handleClickAbout}>
+                About
+            </li>
+          <li className="item" onClick={handleClickSkills} >
+                Skills
+            </li>
+          <li className="item" onClick={handleClickEducation}>
+                Education
+            </li>
+            <li className="item" onClick={handleClickProject}>Projects</li>
+            <li class="item" onClick={handleClickContact}>Contact</li>
+					</ul>
+				  </div>
         </nav>
       </div>
     </div>

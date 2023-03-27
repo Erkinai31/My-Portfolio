@@ -13,6 +13,7 @@ const About = forwardRef((props,ref)=> {
           </h1> <img
           src={clip}
           width="60px"
+          height="90px"
           alt="clip"
           className="clip"
         />
