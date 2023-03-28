@@ -37,21 +37,25 @@
 .lng_skill {
   width: 85%;
 }
-.html {
+.html, .figma {
   width: 85%;
 }
-.css {
-  width: 80%;
+.scss {
+  width: 75%;
 }
 .js {
   width: 70%;
 }
 .react {
-  width: 60%;
+  width: 65%;
 }
 .redux {
   width: 45%;
 }
+.git, .github, .bootstrap{
+  width: 60%;
+}
+
 .circle-out {
   position: relative;
   width: 160px;

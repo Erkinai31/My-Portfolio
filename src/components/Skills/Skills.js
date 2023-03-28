@@ -27,11 +27,11 @@ var increaseProgress = function() {
             <strong className="percentage">45%</strong>
           </div>
           <div className="progress">
-            <div className="progress-inside css">CSS/SASS/SCSS</div>
+            <div className="progress-inside scss">CSS/SASS/SCSS</div>
             <strong className="percentage">80%</strong>
           </div>
           <div className="progress">
-            <div className="progress-inside css">Bootstrap</div>
+            <div className="progress-inside bootstrap">Bootstrap</div>
             <strong className="percentage">60%</strong>
           </div>
           <div className="progress">
@@ -43,15 +43,15 @@ var increaseProgress = function() {
             <strong className="percentage">75%</strong>
           </div>
           <div className="progress">
-            <div className="progress-inside js">Git</div>
+            <div className="progress-inside git">Git</div>
             <strong className="percentage">60%</strong>
           </div>
           <div className="progress">
-            <div className="progress-inside js">Github/Gitlab</div>
+            <div className="progress-inside github">Github/Gitlab</div>
             <strong className="percentage">60%</strong>
           </div>
           <div className="progress">
-            <div className="progress-inside js">Figma/Zeplin</div>
+            <div className="progress-inside figma">Figma/Zeplin</div>
             <strong className="percentage">85%</strong>
           </div>
         </div>
