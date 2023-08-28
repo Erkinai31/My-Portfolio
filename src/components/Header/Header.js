@@ -36,20 +36,21 @@ export default function Header(props) {
        <nav>
           <ul className="menu">
             <li className="menu__item" onClick={handleClickHome}>
-                Home
+                Heim
             </li>
             <li className="menu__item" onClick={handleClickAbout}>
-                About
+                Über mich
             </li>
-            <li className="menu__item" onClick={handleClickSkills} >
-                Skills
+             <li className="menu__item"onClick={handleClickProject}>
+                Projekte
             </li>
             <li className="menu__item" onClick={handleClickEducation}>
-                Education
+                Ausbildung
             </li>
-            <li className="menu__item"onClick={handleClickProject}>
-                Projects
+            <li className="menu__item" onClick={handleClickSkills} >
+                Fähigkeiten
             </li>
+           
           </ul>
           <div class="hamburger-menu">
 					<input id="menu__toggle" type="checkbox" />
@@ -58,18 +59,20 @@ export default function Header(props) {
 					</label>
 					<ul class="menu__box">
           <li className="item" onClick={handleClickHome}>
-                Home
+                Heim
             </li>
             <li className="item" onClick={handleClickAbout}>
-                About
+                Über mich
+            </li>
+            <li className="item" onClick={handleClickProject}>Projekte</li>
+            <li className="item" onClick={handleClickEducation}>
+                Ausbildung
             </li>
           <li className="item" onClick={handleClickSkills} >
-                Skills
+                Fähigkeiten
             </li>
-          <li className="item" onClick={handleClickEducation}>
-                Education
-            </li>
-            <li className="item" onClick={handleClickProject}>Projects</li>
+          
+            
 					</ul>
 				  </div>
         </nav>
