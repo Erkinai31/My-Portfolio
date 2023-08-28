@@ -1,9 +1,9 @@
 import React, { forwardRef } from "react";
 import { Carousel } from "react-bootstrap";
-import Vid1 from "../../assets/video/IMG_8022.MOV";
-import Vid2 from "../../assets/video/IMG_8030.MOV";
-import Vid3 from "../../assets/video/IMG_8036.MOV";
-import Vid4 from "../../assets/video/IMG_7390.MOV";
+import Vid1 from "../../assets/video/GartenShop.mp4";
+import Vid2 from "../../assets/video/MovieVideo.mp4";
+import Vid3 from "../../assets/video/NewYear.mp4";
+import Vid4 from "../../assets/video/GithubProfil.mp4";
 import ReactPlayer from "react-player";
 import "bootstrap/dist/css/bootstrap.css";
 import "./MyProjects.scss";
@@ -35,16 +35,16 @@ const MyProjects = forwardRef((props, ref) => {
     },
     {
       id: 4,
-      title: "Timer and Stopwatch",
+      title: "Github Profil",
       src: Vid2,
       credit: "Look at the code here",
-      src2: "https://github.com/Erkinai31/Time-managment-own-design-.git",
+      src2: "https://github.com/Erkinai31/github-users.git",
     },
   ];
   return (
     <div className="projectPage" ref={MyProjectsRef}>
       <div className="project_content">
-        <h1 className="title"> My Projects</h1>
+        <h1 className="title">Meine Projekte</h1>
         <Carousel>
           {videoProperities.map((videoObj) => {
             return (

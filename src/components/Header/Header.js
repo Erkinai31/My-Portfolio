@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.scss";
 
 export default function Header(props) {
-  const { HomeRef, AboutRef, SkillsRef, ContactRef, MyProjectsRef, EducationRef } = props;
+  const { HomeRef, AboutRef, SkillsRef, MyProjectsRef, EducationRef } = props;
 
   const handleClickHome = () => {
     HomeRef.current.scrollIntoView({
@@ -16,11 +16,6 @@ export default function Header(props) {
   };
   const handleClickSkills = () => {
     SkillsRef.current.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
-  const handleClickContact = () => {
-    ContactRef.current.scrollIntoView({
       behavior: "smooth",
     });
   };
@@ -55,9 +50,6 @@ export default function Header(props) {
             <li className="menu__item"onClick={handleClickProject}>
                 Projects
             </li>
-            <li className="menu__item" onClick={handleClickContact}>
-                Contact
-            </li>
           </ul>
           <div class="hamburger-menu">
 					<input id="menu__toggle" type="checkbox" />
@@ -78,7 +70,6 @@ export default function Header(props) {
                 Education
             </li>
             <li className="item" onClick={handleClickProject}>Projects</li>
-            <li class="item" onClick={handleClickContact}>Contact</li>
 					</ul>
 				  </div>
         </nav>

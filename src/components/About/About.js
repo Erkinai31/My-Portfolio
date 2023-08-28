@@ -9,7 +9,7 @@ const About = forwardRef((props,ref)=> {
   return (
     <div className="aboutMe" ref={AboutRef}>
         <div className="personal_info">
-           <h1 className="title">Personal Details
+           <h1 className="title">Persönliche Daten
           </h1> <img
           src={clip}
           width="60px"
@@ -20,12 +20,14 @@ const About = forwardRef((props,ref)=> {
         
         </div>
         <div className="info_aboutme">
-        I started my Journey as a Frontend Developer in 2021, when i decided to create a layout for interest and began to study HTML and CSS, after i did a full layout, I realized that I want to do this professionally.
-        <br></br>
-        <br></br>
-        That's why I signed up for courses, where I received a lot of theoretical and practical knowledge.Now I am applying this knowledge on an internship. I’m now looking for a junior dev position to finally kick start my career and learn among professionals.
-        </div>
-        <a href={cv} download className="btn2">Download Resume </a>
+        Im Februar dieses Jahres habe ich den Frontend Developer Kurs erfolgreich abgeschlossen und schon im letzten Monat meiner Ausbildung wurde mir ein Online-Praktikum bei einem Unternehmen angeboten. 
+
+Hier habe ich angefangen, an einem wirklich großen Projekt zu arbeiten, neue Technologien wie Gitlab, TypeScript, Styled Components zu lernen und Teamarbeit mit der Scrum-Methodik ist tolle Erfahrung für mich.<br/>
+
+Nach meinem Praktikum kam ich als Webentwickler zu Reifenvertrieb24, wo ich in die Welt von WordPress eintauchte und lernte, wie man einen FTP-Server verwaltet. Drei Monate lang war ich maßgeblich an der Fertigstellung der Hauptwebsite des Unternehmens beteiligt, eine Leistung, die meine Fähigkeit unterstreicht, Projekte bis zum Abschluss zu begleiten. Nun bin ich, inspiriert von diesem Erfolg, auf der Suche nach einem neuen beruflichen Umfeld, um meine Fähigkeiten weiter zu verbessern und mein gesammeltes Wissen zu kanalisieren.
+
+ </div>
+        <a href={cv} download className="btn2">Lebenslauf herunterladen </a>
       </div>
   );
 }

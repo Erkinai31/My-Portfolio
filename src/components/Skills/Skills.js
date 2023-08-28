@@ -13,11 +13,11 @@ var increaseProgress = function() {
   return (
     <div className="skills_page" ref={SkillsRef}>
       <div className="skills_wrapper">
-      <h1 className="title">Skills</h1>
+      <h1 className="title">Fähigkeiten</h1>
 
       <div className="skills_content">
         <div className="tech_skill">
-          <h2>Technical Skills</h2>
+          <h2>Technische Fähigkeiten</h2>
           <div className="progress">
             <div className="progress-inside html">HTML</div>
             <strong className="percentage">85%</strong>
@@ -39,8 +39,12 @@ var increaseProgress = function() {
             <strong className="percentage">65%</strong>
           </div>
           <div className="progress">
-            <div className="progress-inside js">JS</div>
+            <div className="progress-inside js">Java Script</div>
             <strong className="percentage">75%</strong>
+          </div>
+          <div className="progress">
+            <div className="progress-inside ts">TypeScript</div>
+            <strong className="percentage">45%</strong>
           </div>
           <div className="progress">
             <div className="progress-inside git">Git</div>
@@ -54,32 +58,40 @@ var increaseProgress = function() {
             <div className="progress-inside figma">Figma/Zeplin</div>
             <strong className="percentage">85%</strong>
           </div>
+          <div className="progress">
+            <div className="progress-inside ftp">FTP Server</div>
+            <strong className="percentage">75%</strong>
+          </div>
+          <div className="progress">
+            <div className="progress-inside wordpress">WordPress</div>
+            <strong className="percentage">80%</strong>
+          </div>
         </div>
         <div className="lng_skill">
-          <h2>Language Skills</h2>
+          <h2>Sprachkenntnisse</h2>
         <div className="lng_grid">
            < div className="wh_bgr">
               <div class="circle-out">
                 <div class="lng eng"></div>
-                <div class="circle-in" onmouseover="increaseProgress()">55%<span>English</span></div>
+                <div class="circle-in" onmouseover="increaseProgress()">55%<span>Englisch</span></div>
               </div> 
           </div>
           < div className="wh_bgr">
               <div class="circle-out">
                 <div class="lng ge"></div>
-                <div class="circle-in" onmouseover="increaseProgress()">75%<span>German</span></div>
+                <div class="circle-in" onmouseover="increaseProgress()">75%<span>Deutsch</span></div>
               </div> 
           </div>
           < div className="wh_bgr">
               <div class="circle-out">
                 <div class="lng ru"></div>
-                <div class="circle-in" onmouseover="increaseProgress()">100%<span>Russian</span></div>
+                <div class="circle-in" onmouseover="increaseProgress()">100%<span>Russisch</span></div>
               </div> 
           </div>
           < div className="wh_bgr">
               <div class="circle-out">
                 <div class="lng kg"></div>
-                <div class="circle-in" onmouseover="increaseProgress()">100%<span>Kyrgyz</span></div>
+                <div class="circle-in" onmouseover="increaseProgress()">100%<span>Kirgisisch</span></div>
               </div> 
           </div>
         </div>

@@ -47,7 +47,7 @@
     border:rgba(0, 0, 255, 0.567) 1px solid;
     color:$whCl;
     font-size: 16px;
-    width: 20%;
+    width: 40%;
     text-align: center;
     margin: $mg;
     text-decoration: none;
@@ -57,6 +57,25 @@
    flex-direction: column;
    justify-content: space-around;
    min-height:390px;
+}
+
+
+
+
+.contact_icons {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  width: $wd;
+  margin:30px 0; 
+
+  
+}
+@media screen and (max-width:420px) {
+  .png{
+    width:30px;
+    height: 30px;
+  }
 }
 @media screen and (max-width:768px) {
     .btn1{

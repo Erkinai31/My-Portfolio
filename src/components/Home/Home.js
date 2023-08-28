@@ -2,6 +2,11 @@ import React, { forwardRef } from "react";
 import myPhoto from "../../assets/img/sticker.webp";
 import "./Home.scss";
 import Typed from "typed.js";
+import linkedin from "../../assets/img/Linkedin-logo-on-transparent-Background-PNG-.png"
+import xing from "../../assets/img/xing-icon.svg"
+import gmail from "../../assets/img/logo-email.png"
+import github from "../../assets/img/github.svg.png"
+
 
 const Home = forwardRef((props, ref) => {
   const { HomeRef } = props;
@@ -10,8 +15,8 @@ const Home = forwardRef((props, ref) => {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "<i> Hi, my name's Erkinai</i>",
-        " and i'm Junior Frontend developer !",
+        "<i> Hallo, meine Name ist Erkinai</i>",
+        " und ich bin Frontend Entwicklerin!",
       ],
       typeSpeed: 80,
     });
@@ -36,14 +41,20 @@ const Home = forwardRef((props, ref) => {
         </div>
         <div>
           <p className="about">
-            I really enjoy creating interfaces and interacting with users.
-            Frontend development allows me to express my creativity and create
-            pleasant, convenient and beautiful interfaces for people.
+          Es macht mir wirklich Spaß, Schnittstellen zu erstellen und mit Benutzern zu interagieren. Die Frontend-Entwicklung ermöglicht es mir, meiner Kreativität Ausdruck zu verleihen und angenehme, praktische und schöne Schnittstellen für Menschen zu erstellen.
           </p>
         </div>
       </div>
-      <a href="mailto:emuktarbekova@gmail.com" className="btn1">
-        Contact Me
+      
+     
+       <div className='contact_icons'>
+     <a href='https://www.linkedin.com/in/emuktarbekova'> <img src={linkedin} width='50px' className='png'/></a>
+    <a href='https://www.xing.com/profile/Erkinai_Muktarbekova2/cv'> <img src={xing} width='40px' className='png'/></a> 
+     <a href='https://github.com/Erkinai31'> <img src={github} width='50px' className='png'/> </a>
+    </div>
+  
+    <a href="mailto:emuktarbekova@gmail.com" className="btn1">
+     <img src={gmail} width='50px' className='png'/> Kontaktiere mich
       </a>
     </div>
   );
