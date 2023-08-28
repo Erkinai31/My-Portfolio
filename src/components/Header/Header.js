@@ -36,7 +36,7 @@ export default function Header(props) {
        <nav>
           <ul className="menu">
             <li className="menu__item" onClick={handleClickHome}>
-                Heim
+                Heim.
             </li>
             <li className="menu__item" onClick={handleClickAbout}>
                 Über mich
